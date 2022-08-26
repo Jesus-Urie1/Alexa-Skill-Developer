@@ -1,0 +1,67 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "refis tres sesenta",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "salir",
+                        "no",
+                        "nada"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "OrdenesServicioIntent",
+                    "slots": [],
+                    "samples": [
+                        "ver ordenes de servicio",
+                        "consultar ordenes de servicio"
+                    ]
+                },
+                {
+                    "name": "OpcionIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{number}",
+                        "opcion {number}"
+                    ]
+                },
+                {
+                    "name": "MenuInicioIntent",
+                    "slots": [],
+                    "samples": [
+                        "ver menu",
+                        "ver menu inicio"
+                    ]
+                },
+                {
+                    "name": "ContenedoresIngresadosIntent",
+                    "slots": [],
+                    "samples": [
+                        "consultar contenedores ingresados",
+                        "ver contenedores ingresados"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
