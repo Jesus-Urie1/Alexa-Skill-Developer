@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "tap terminal",
+            "invocationName": "refis tres sesenta",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
