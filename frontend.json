@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "refis tres sesenta",
+            "invocationName": "tap terminal",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -27,6 +27,7 @@
                     "name": "OrdenesServicioIntent",
                     "slots": [],
                     "samples": [
+                        "ordenes de servicio",
                         "ver ordenes de servicio",
                         "consultar ordenes de servicio"
                     ]
@@ -48,6 +49,7 @@
                     "name": "MenuInicioIntent",
                     "slots": [],
                     "samples": [
+                        "menu",
                         "ver menu",
                         "ver menu inicio"
                     ]
@@ -56,8 +58,72 @@
                     "name": "ContenedoresIngresadosIntent",
                     "slots": [],
                     "samples": [
+                        "contendores ingresados",
                         "consultar contenedores ingresados",
                         "ver contenedores ingresados"
+                    ]
+                },
+                {
+                    "name": "ContenedoresDesconsolidadosIntent",
+                    "slots": [],
+                    "samples": [
+                        "contendores desconsolidados",
+                        "consultar contenedores desconsolidados",
+                        "ver contenedores desconsolidados"
+                    ]
+                },
+                {
+                    "name": "PartidasDesconsolidadasIntent",
+                    "slots": [],
+                    "samples": [
+                        "consultar partidas desconsolidadas",
+                        "partidas desconsolidadas",
+                        "ver partidas desconsolidadas"
+                    ]
+                },
+                {
+                    "name": "TotalFacturadoIntent",
+                    "slots": [],
+                    "samples": [
+                        "total facturado",
+                        "consultar total facturado",
+                        "ver total facturado"
+                    ]
+                },
+                {
+                    "name": "ToneladasIngresadasIntent",
+                    "slots": [],
+                    "samples": [
+                        "toneladas ingresadas",
+                        "consultar toneladas ingresadas",
+                        "ver toneladas ingresadas"
+                    ]
+                },
+                {
+                    "name": "PartidasSubdivididasIntent",
+                    "slots": [],
+                    "samples": [
+                        "partidas subdivididas",
+                        "consultar partidas subdivididas",
+                        "ver partidas subdivididas"
+                    ]
+                },
+                {
+                    "name": "PartidasSeparadasIntent",
+                    "slots": [],
+                    "samples": [
+                        "partidas separadas",
+                        "consultar partidas separadas",
+                        "ver partidas separadas"
+                    ]
+                },
+                {
+                    "name": "TotalIngresosIntent",
+                    "slots": [],
+                    "samples": [
+                        "total ingresos",
+                        "consultar total ingresos",
+                        "ver total ingresos"
                     ]
                 }
             ],
