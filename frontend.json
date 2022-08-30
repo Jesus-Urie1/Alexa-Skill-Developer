@@ -14,6 +14,7 @@
                 {
                     "name": "AMAZON.StopIntent",
                     "samples": [
+                        "salir de la skill",
                         "salir",
                         "no",
                         "nada"
@@ -82,24 +83,6 @@
                     ]
                 },
                 {
-                    "name": "TotalFacturadoIntent",
-                    "slots": [],
-                    "samples": [
-                        "total facturado",
-                        "consultar total facturado",
-                        "ver total facturado"
-                    ]
-                },
-                {
-                    "name": "ToneladasIngresadasIntent",
-                    "slots": [],
-                    "samples": [
-                        "toneladas ingresadas",
-                        "consultar toneladas ingresadas",
-                        "ver toneladas ingresadas"
-                    ]
-                },
-                {
                     "name": "PartidasSubdivididasIntent",
                     "slots": [],
                     "samples": [
@@ -115,15 +98,6 @@
                         "partidas separadas",
                         "consultar partidas separadas",
                         "ver partidas separadas"
-                    ]
-                },
-                {
-                    "name": "TotalIngresosIntent",
-                    "slots": [],
-                    "samples": [
-                        "total ingresos",
-                        "consultar total ingresos",
-                        "ver total ingresos"
                     ]
                 }
             ],
